@@ -26,21 +26,11 @@
       <file leaf-file-name="filterTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/src/test/java/Test/filterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="44" column="40" lean-forward="true" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
+            <state relative-caret-position="384">
+              <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Property.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/test/java/Core/Property.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="38" lean-forward="false" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="77" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -48,8 +38,8 @@
       <file leaf-file-name="filterPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/src/test/java/Pages/filterPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="69" column="47" lean-forward="true" selection-start-line="69" selection-start-column="47" selection-end-line="69" selection-end-column="72" />
+            <state relative-caret-position="1432">
+              <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,21 +47,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RelatórioStatus.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/test/java/Utils/RelatórioStatus.java">
+      <file leaf-file-name="RelatorioExtentReport.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/src/test/java/Utils/RelatorioExtentReport.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="72" />
+            <state relative-caret-position="313">
+              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DriverFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/test/java/Core/DriverFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="31" column="17" lean-forward="false" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RelatorioExtentReport.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/src/test/java/Utils/RelatorioExtentReport.java">
+      <file leaf-file-name="Property.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/test/java/Core/Property.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="108" lean-forward="false" selection-start-line="15" selection-start-column="108" selection-end-line="15" selection-end-column="108" />
+            <state relative-caret-position="119">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -88,7 +90,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/web/src/test/java/TestLogin/SigninInValidTest.java" />
-        <option value="$PROJECT_DIR$/web/src/test/java/Core/DriverFactory.java" />
         <option value="$PROJECT_DIR$/web/src/test/java/DSL/Select.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/web/src/test/java/DSL/Combo.java" />
@@ -98,15 +99,16 @@
         <option value="$PROJECT_DIR$/web/src/test/java/Test/FillFormTest.java" />
         <option value="$PROJECT_DIR$/web/src/test/java/Pages/DeleteCustomerPage.java" />
         <option value="$PROJECT_DIR$/web/src/test/java/Test/DeleteCustomerTest.java" />
-        <option value="$PROJECT_DIR$/web/src/test/java/Core/Property.java" />
         <option value="$PROJECT_DIR$/web/src/test/java/Core/PropertyDatas.java" />
         <option value="$PROJECT_DIR$/web/src/test/java/Test/FillFormCustomerTest.java" />
         <option value="$PROJECT_DIR$/web/src/test/java/Pages/FillFormPage.java" />
         <option value="$PROJECT_DIR$/web/src/test/java/SuiteTest/SuiteTest.java" />
+        <option value="$PROJECT_DIR$/web/src/test/java/Utils/RelatórioStatus.java" />
+        <option value="$PROJECT_DIR$/web/src/test/java/Core/DriverFactory.java" />
+        <option value="$PROJECT_DIR$/web/src/test/java/Utils/RelatorioExtentReport.java" />
         <option value="$PROJECT_DIR$/web/src/test/java/Test/filterTest.java" />
         <option value="$PROJECT_DIR$/web/src/test/java/Pages/filterPage.java" />
-        <option value="$PROJECT_DIR$/web/src/test/java/Utils/RelatórioStatus.java" />
-        <option value="$PROJECT_DIR$/web/src/test/java/Utils/RelatorioExtentReport.java" />
+        <option value="$PROJECT_DIR$/web/src/test/java/Core/Property.java" />
       </list>
     </option>
   </component>
@@ -208,7 +210,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="SuiteTest" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="projectSeleniumAndRestAssured" type="b2602c69:ProjectViewProjectNode" />
@@ -217,7 +219,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="TestSuit" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="projectSeleniumAndRestAssured" type="b2602c69:ProjectViewProjectNode" />
@@ -329,15 +331,15 @@
     <configuration name="SuiteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="SuiteTest.*" />
+          <option name="PATTERN" value="TestSuit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="projectSeleniumAndRestAssured" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="SuiteTest" />
-      <option name="MAIN_CLASS_NAME" value="SuiteTest.SuiteTest" />
+      <option name="PACKAGE_NAME" value="TestSuit" />
+      <option name="MAIN_CLASS_NAME" value="TestSuit.SuiteTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -525,26 +527,11 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SuiteTest - 2020.07.13 at 21h 04m 28s.xml">
+    <history-entry file="SuiteTest - 2020.07.13 at 22h 41m 19s.xml">
       <configuration name="SuiteTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SuiteTest - 2020.07.13 at 21h 05m 25s.xml">
+    <history-entry file="SuiteTest - 2020.07.13 at 22h 42m 56s.xml">
       <configuration name="SuiteTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="filterTest - 2020.07.13 at 21h 41m 10s.xml">
-      <configuration name="filterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="filterTest - 2020.07.13 at 21h 42m 13s.xml">
-      <configuration name="filterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="filterTest - 2020.07.13 at 21h 46m 01s.xml">
-      <configuration name="filterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="filterTest - 2020.07.13 at 21h 46m 42s.xml">
-      <configuration name="filterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="filterTest - 2020.07.13 at 21h 48m 03s.xml">
-      <configuration name="filterTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="filterTest - 2020.07.13 at 21h 55m 59s.xml">
       <configuration name="filterTest" configurationId="JUnit" />
@@ -553,6 +540,21 @@
       <configuration name="filterTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="filterTest - 2020.07.13 at 22h 00m 12s.xml">
+      <configuration name="filterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="filterTest - 2020.07.13 at 22h 14m 03s.xml">
+      <configuration name="filterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="filterTest - 2020.07.13 at 22h 26m 47s.xml">
+      <configuration name="filterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="filterTest - 2020.07.13 at 22h 33m 41s.xml">
+      <configuration name="filterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="filterTest - 2020.07.13 at 22h 34m 48s.xml">
+      <configuration name="filterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="filterTest - 2020.07.13 at 22h 45m 03s.xml">
       <configuration name="filterTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -579,7 +581,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34514287" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25885418" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -734,14 +736,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/BDD/SignValidTest.feature" />
     <entry file="file://$PROJECT_DIR$/web/src/test/java/TestMyAddresses/UpdateMyAddressesTest.java" />
-    <entry file="file://$PROJECT_DIR$/web/src/test/java/Core/DriverFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/test/java/DSL/Select.java" />
     <entry file="file://$PROJECT_DIR$/web/src/test/java/DSL/Combo.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -793,26 +787,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/test/java/Core/PropertyDatas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/test/java/SuiteTest/SuiteTest.java">
+    <entry file="file://$PROJECT_DIR$/web/src/test/java/TestSuit/SuiteTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/test/java/Core/Property.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="38" lean-forward="false" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="77" />
           <folding />
         </state>
       </provider>
@@ -830,10 +808,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/test/java/Utils/RelatórioStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/test/java/Core/PropertyDatas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/test/java/Test/filterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="44" column="40" lean-forward="true" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
+        <state relative-caret-position="384">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -842,27 +836,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/test/java/Pages/filterPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="69" column="47" lean-forward="true" selection-start-line="69" selection-start-column="47" selection-end-line="69" selection-end-column="72" />
+        <state relative-caret-position="1432">
+          <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/test/java/Utils/RelatórioStatus.java">
+    <entry file="file://$PROJECT_DIR$/web/src/test/java/Core/Property.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="72" />
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/test/java/Core/DriverFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="31" column="17" lean-forward="false" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/test/java/Utils/RelatorioExtentReport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="108" lean-forward="false" selection-start-line="15" selection-start-column="108" selection-end-line="15" selection-end-column="108" />
-          <folding />
+        <state relative-caret-position="313">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

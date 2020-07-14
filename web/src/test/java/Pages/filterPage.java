@@ -64,12 +64,4 @@ public class filterPage {
         }
     }
 
-
-    public void IRegistreMessage() throws Exception {
-        RegistrarEvidencia.registrar(
-                System.getProperty("user.dir") + File.separator + "web" + File.separator +
-                        "src" + File.separator + "test" +  File.separator + "java" +File.separator +
-                        "Arquivo" + File.separator +"Pesquisa valida.png" );
-    }
-
 }

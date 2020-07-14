@@ -1,9 +1,11 @@
 package Utils;
 
+import Core.Property;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 import java.io.File;
+import static Core.DriverFactory.getDriver;
 
 public class RelatorioExtentReport {
 
@@ -29,14 +31,17 @@ public class RelatorioExtentReport {
             extent.setSystemInfo("Organization", "Teste de Software");
         }
 
+
     }
 
 
-    public static void closeRelatorio()
+    public static void closeRelatorio()throws Exception
     {
         if(htmlReporter==null){
             extent.flush();
+
         }
+        getDriver().get( Property.htmlRelatorio );
     }
 
 

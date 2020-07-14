@@ -41,7 +41,6 @@ public class filterTest {
     @After
     public void tearDown() throws Exception {
 
-        fillForm.IRegistreMessage();
         Assert.assertTrue( fillForm.resultadoPesquisa() );
         closeRelatorio();
 
