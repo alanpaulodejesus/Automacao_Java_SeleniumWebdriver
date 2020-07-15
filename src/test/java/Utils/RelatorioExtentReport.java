@@ -15,7 +15,7 @@ public class RelatorioExtentReport {
     public static void startRelatorio() {
 
         if(htmlReporter==null){
-            htmlReporter = new ExtentHtmlReporter(System.getProperty( "user.dir" )+ File.separator + "web"  + File.separator +
+            htmlReporter = new ExtentHtmlReporter(System.getProperty( "user.dir" )  + File.separator +
                     "src" + File.separator + "test" + File.separator + "resources" + File.separator + "relatorio.html" );
 
 

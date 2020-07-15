@@ -16,7 +16,7 @@ public class RelatórioStatus {
     public void testStatusPass(ExtentTest test1, String textoPng) throws IOException {
         test1.log( Status.PASS, "Test Finalized with sucess");
         test1.addScreenCaptureFromPath(
-                System.getProperty("user.dir")+ File.separator + "web"  + File.separator +
+                System.getProperty("user.dir") + File.separator +
                         "src" + File.separator + "test" +  File.separator + "java" +File.separator + "Arquivo" + File.separator +textoPng);
         extent.flush();
 
@@ -25,7 +25,7 @@ public class RelatórioStatus {
     public void testStatusFail(ExtentTest test1,String textoPng) throws IOException {
         test1.log(Status.FAIL, "Ocorred a fail in test");
         test1.addScreenCaptureFromPath(
-                System.getProperty("user.dir") + File.separator + "web" + File.separator +
+                System.getProperty("user.dir") + File.separator +
                         "src" + File.separator + "test" +  File.separator + "java" +File.separator + "Arquivo" + File.separator +textoPng);
 
         extent.flush();
