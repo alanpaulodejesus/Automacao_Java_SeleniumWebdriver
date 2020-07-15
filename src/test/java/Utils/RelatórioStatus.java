@@ -17,7 +17,7 @@ public class RelatórioStatus {
         test1.log( Status.PASS, "Test Finalized with sucess");
         test1.addScreenCaptureFromPath(
                 System.getProperty("user.dir") + File.separator +
-                        "src" + File.separator + "test" +  File.separator + "java" +File.separator + "Arquivo" + File.separator +textoPng);
+                        "src" + File.separator + "test" +  File.separator + "java" +File.separator + "Files" + File.separator +textoPng);
         extent.flush();
 
     }
@@ -26,7 +26,7 @@ public class RelatórioStatus {
         test1.log(Status.FAIL, "Ocorred a fail in test");
         test1.addScreenCaptureFromPath(
                 System.getProperty("user.dir") + File.separator +
-                        "src" + File.separator + "test" +  File.separator + "java" +File.separator + "Arquivo" + File.separator +textoPng);
+                        "src" + File.separator + "test" +  File.separator + "java" +File.separator + "Files" + File.separator +textoPng);
 
         extent.flush();
     }
