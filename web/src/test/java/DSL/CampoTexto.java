@@ -18,8 +18,8 @@ public class CampoTexto {
         elemento.sendKeys( Keys.ENTER);
     }
 
-    public static void preencherAutomatico(WebElement elemento, Faker valorFake) {
-        String valor = String.valueOf( valorFake );
+    public static void preencherAutomatico(WebElement elemento, Faker fake) {
+        String valor = String.valueOf( fake );
         elemento.clear();
         elemento.sendKeys( valor );
     }
