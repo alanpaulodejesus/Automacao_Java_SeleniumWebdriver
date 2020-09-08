@@ -26,6 +26,7 @@ public class createAccountPage {
     @FindBy(xpath = "//div/p[contains(text(),'errors')]") private WebElement messageCreateInvalid;
 
     public static  ExtentTest test1=null;
+
     RelatórioStatus relatorio = new RelatórioStatus();
 
     public createAccountPage() throws Exception {
@@ -72,14 +73,13 @@ public class createAccountPage {
 
     public boolean validCreateAccountInvalid() throws Exception {
         Tempo.aguardar(2, messageCreateInvalid );
-        test1 = extent.createTest( "Create Account Invalid" );
-        if(Label.textoPresente( messageCreateInvalid ))
-        {
 
+        test1 = extent.createTest( "Create Account Invalid" );
+        if(Label.elementoPresente( messageCreateInvalid ))
+        {
             relatorio.testStatusPass( test1,"Create Invalid.png" );
             return true;
-        }else{
-
+        }else {
             relatorio.testStatusFail( test1,"Create Invalid Fail.png");
             return false;
         }
