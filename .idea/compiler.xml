@@ -12,7 +12,6 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="1 - projeto" target="1.5" />
-      <module name="projectSeleniumAndRestAssured" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,32 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="359a2c1b-47c0-402c-b022-802178afdec9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_core_4_8_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_expressions_7_0_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_java_4_8_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_datatable_1_1_14.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_datatable_dependencies_1_1_14.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_gherkin_5_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_tag_expressions_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/drivers/chromedriver.exe" afterPath="$PROJECT_DIR$/src/main/resources/drivers/chromedriver.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/drivers/chromedriver.exe" afterPath="$PROJECT_DIR$/target/classes/drivers/chromedriver.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/DSL/Label.class" afterPath="$PROJECT_DIR$/target/test-classes/DSL/Label.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Pages/createAccountPage.class" afterPath="$PROJECT_DIR$/target/test-classes/Pages/createAccountPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Utils/RelatórioStatus.class" afterPath="$PROJECT_DIR$/target/test-classes/Utils/RelatórioStatus.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projectSeleniumAndRestAssured.iml" afterPath="$PROJECT_DIR$/projectSeleniumAndRestAssured.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/DSL/Label.java" afterPath="$PROJECT_DIR$/src/test/java/DSL/Label.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Pages/createAccountPage.java" afterPath="$PROJECT_DIR$/src/test/java/Pages/createAccountPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/relatorio.html" afterPath="$PROJECT_DIR$/src/test/resources/relatorio.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/relatorio.html" afterPath="$PROJECT_DIR$/target/test-classes/relatorio.html" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/endpoints/EventoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/test/CriarEventoServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/core/RestAssuredConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/gui/page/EventoPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/gui/test/EventoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/Generator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/env.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_aventstack_extentreports_4_0_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_javafaker_javafaker_1_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_mifmif_generex_1_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_25_0_jre.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_14_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__dk_brics_automaton_automaton_1_11_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_jcip_jcip_annotations_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_jetty_repacked_9_4_12_v20180830.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_141_59.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_141_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_141_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_141_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_141_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_141_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_141_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_141_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_141_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_server_3_141_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_141_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_android_1_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectSeleniumAndRestAssured.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Core/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/core/DriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Core/Property.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/core/Property.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DSL/CampoTexto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gui/dsl/CampoTexto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DSL/Comando.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gui/dsl/Comando.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DSL/Combo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gui/dsl/Combo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DSL/Label.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gui/dsl/Label.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Files/Pesquisa valida.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/createAccountPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test/createAccountTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestSuit/SuiteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hooks/TestHooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/Generetor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/GeneretorDatas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/RegistrarEvidencia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/RelatorioExtentReport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/RelatórioStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/Tempo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Tempo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/relatorio.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/relatorio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Core/DriverFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Core/DriverFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Core/Property$Browsers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Core/Property$Browsers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Core/Property.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Core/Property.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DSL/CampoTexto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DSL/Comando.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DSL/Combo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DSL/Label.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/createAccountPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Test/createAccountTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestSuit/SuiteTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Utils/Generetor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Utils/GeneretorDatas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Utils/RegistrarEvidencia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Utils/RelatorioExtentReport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Utils/RelatórioStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Utils/Tempo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utils/Tempo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/relatorio.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/relatorio.html" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -140,19 +212,16 @@
       </list>
     </option>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
     <option name="height" value="980" />
   </component>
+  <component name="ProjectId" id="2yt5CjziU6idGArmoGJHrMRlSeH" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -248,16 +317,39 @@
       </pane>
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
-    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.CriarEventoService.deveCriarEventoServiceComSucesso.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CriarEventoServiceTest.deveCriarEventoServiceComSucesso.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CriarEventoTest.criarEventoComDataMenorQueAtual.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CriarEventoTest.criarEventoComSucesso.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CriarEventoTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EventoTest.cenario1_excluirEventoComSucesso.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EventoTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SuiteTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestHooks.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.createAccountTest.createAccountInvalid.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/projetoSeleniumEventos/Automacao_Java_SeleniumWebdriver&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\1 - Git Automação de Software\Java_SeleniumWebdriver\Automacao_Java_SeleniumWebdriver\src\main\resources\drivers" />
       <recent name="C:\Users\Alan Paulo\1 - projeto\src\main" />
       <recent name="C:\Users\Alan Paulo\1 - projeto\src\test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alan Paulo\1 - projeto" />
+      <recent name="C:\Users\Alan Paulo\1 - projeto\target" />
+      <recent name="C:\Users\Alan Paulo\1 - projeto\web" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Steps" />
@@ -266,100 +358,8 @@
       <recent name="Core" />
       <recent name="DSL" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Alan Paulo\1 - projeto" />
-      <recent name="C:\Users\Alan Paulo\1 - projeto\target" />
-      <recent name="C:\Users\Alan Paulo\1 - projeto\web" />
-    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="JUnit.createAccountTest.createAccountInvalid">
-    <configuration name="DeleteCustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="projectSeleniumAndRestAssured" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.DeleteCustomerTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="DeleteCustomerTest.deleteCustomer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="projectSeleniumAndRestAssured" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.DeleteCustomerTest" />
-      <option name="METHOD_NAME" value="deleteCustomer" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="SuiteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="TestSuit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="projectSeleniumAndRestAssured" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="TestSuit" />
-      <option name="MAIN_CLASS_NAME" value="TestSuit.SuiteTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestHooks">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -367,162 +367,140 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="1 - projeto" />
-      <envs />
-    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
+    <configuration name="CriarEventoServiceTest.deveCriarEventoServiceComSucesso" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="projectSeleniumAndRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api.test" />
+      <option name="MAIN_CLASS_NAME" value="api.test.CriarEventoServiceTest" />
+      <option name="METHOD_NAME" value="deveCriarEventoServiceComSucesso" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeleteCustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="projectSeleniumAndRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gui.page.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.DeleteCustomerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EventoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="projectSeleniumAndRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gui.page.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="gui.page.test.EventoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EventoTest.cenario1_excluirEventoComSucesso" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="projectSeleniumAndRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gui.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="gui.test" />
+      <option name="MAIN_CLASS_NAME" value="gui.test.EventoTest" />
+      <option name="METHOD_NAME" value="cenario1_excluirEventoComSucesso" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestHooks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="projectSeleniumAndRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hooks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hooks" />
+      <option name="MAIN_CLASS_NAME" value="hooks.TestHooks" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="1 - projeto" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="createAccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="projectSeleniumAndRestAssured" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.createAccountTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="createAccountTest.createAccountInvalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="projectSeleniumAndRestAssured" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.createAccountTest" />
-      <option name="METHOD_NAME" value="createAccountInvalid" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.createAccountTest.createAccountInvalid" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.createAccountTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.SuiteTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.DeleteCustomerTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.DeleteCustomerTest.deleteCustomer" />
+    <list>
+      <item itemvalue="JUnit.CriarEventoServiceTest.deveCriarEventoServiceComSucesso" />
+      <item itemvalue="JUnit.EventoTest" />
+      <item itemvalue="JUnit.EventoTest.cenario1_excluirEventoComSucesso" />
+      <item itemvalue="JUnit.TestHooks" />
+      <item itemvalue="JUnit.DeleteCustomerTest" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.createAccountTest.createAccountInvalid" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.createAccountTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SuiteTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.DeleteCustomerTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.DeleteCustomerTest.deleteCustomer" />
+      <list>
+        <item itemvalue="JUnit.TestHooks" />
+        <item itemvalue="JUnit.CriarEventoServiceTest.deveCriarEventoServiceComSucesso" />
+        <item itemvalue="JUnit.EventoTest.cenario1_excluirEventoComSucesso" />
+        <item itemvalue="JUnit.EventoTest" />
+        <item itemvalue="JUnit.DeleteCustomerTest" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="359a2c1b-47c0-402c-b022-802178afdec9" name="Default" comment="" />
@@ -601,15 +579,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912844" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="1" />
-    </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/web/src/test/java/Pages/createAccountPage.java" />
