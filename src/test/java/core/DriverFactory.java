@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 
 import java.io.File;
 
@@ -20,10 +21,16 @@ public class DriverFactory {
         if (driver == null) {
 
                 if (Property.browser.name().equals( "FIREFOX" )) {
-                    System.setProperty( "webdriver.gecko.driver", System.getProperty( "user.dir" ) + File.separator + "src" + File.separator + "main" + File.separator + "resources" + File.separator +
-                            "drivers" + File.separator + "geckodriver.exe" );
+                    WebDriverManager.firefoxdriver().setup();
 
-                    driver = new FirefoxDriver();
+                    FirefoxOptions options = new FirefoxOptions();
+                    options.setHeadless(true);
+                    options.addArguments("--width=1920");
+                    options.addArguments("--height=1080");
+                    options.addPreference("dom.webnotifications.enabled", false);
+                    options.addPreference("media.volume_scale", "0.0");
+
+                    driver = new FirefoxDriver(options);
                 } else {
                     WebDriverManager.chromedriver().setup();
 
