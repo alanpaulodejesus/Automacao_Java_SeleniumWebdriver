@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="359a2c1b-47c0-402c-b022-802178afdec9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/core/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/core/DriverFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Core/DriverFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Core/DriverFactory.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,28 +230,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.CriarEventoService.deveCriarEventoServiceComSucesso.executor": "Run",
-    "JUnit.CriarEventoServiceTest.deveCriarEventoServiceComSucesso.executor": "Run",
-    "JUnit.CriarEventoTest.criarEventoComDataMenorQueAtual.executor": "Run",
-    "JUnit.CriarEventoTest.criarEventoComSucesso.executor": "Run",
-    "JUnit.CriarEventoTest.executor": "Run",
-    "JUnit.EventoTest.cenario1_excluirEventoComSucesso.executor": "Run",
-    "JUnit.EventoTest.executor": "Run",
-    "JUnit.SuiteTest.executor": "Run",
-    "JUnit.TestHooks.executor": "Run",
-    "JUnit.createAccountTest.createAccountInvalid.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/projetoSeleniumEventos/Automacao_Java_SeleniumWebdriver",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.CriarEventoService.deveCriarEventoServiceComSucesso.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CriarEventoServiceTest.deveCriarEventoServiceComSucesso.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CriarEventoTest.criarEventoComDataMenorQueAtual.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CriarEventoTest.criarEventoComSucesso.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CriarEventoTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EventoTest.cenario1_excluirEventoComSucesso.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EventoTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SuiteTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestHooks.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.createAccountTest.createAccountInvalid.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/projetoSeleniumEventos/Automacao_Java_SeleniumWebdriver&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\1 - Git Automação de Software\Java_SeleniumWebdriver\Automacao_Java_SeleniumWebdriver\src\main\resources\drivers" />
